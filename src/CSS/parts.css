@@ -1,0 +1,56 @@
+body {
+    background-color: #282828;
+    color: #fff;
+	height: 100vh;
+  }
+.topics{
+    height: 80px;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    border-bottom: 1px solid #282828;
+}
+.topics .logo{
+    display: flex;
+    gap: 15px;
+    height: 60px;
+}
+.topics .menu{
+    display: flex;
+    gap: 30px;
+}
+.topics .menu li a {
+    padding: 30px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: "Chalet";
+	transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.topics .menu li a:hover {
+    border-bottom: 2px solid #fff;
+	transform: scale(1.1);
+}
+
+.jojo_parts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.part_title {
+	margin: 0;
+	padding: 10px;
+	font-size: 1.5rem;
+	transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.part_title:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	color: #ffffff;
+}
